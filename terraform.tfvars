@@ -1,0 +1,6 @@
+vpc_cidr_block = "10.0.0.0/16"
+env_prefix = "capstone"
+subnet_cidr_block = "10.0.10.0/24"
+avail_zone = "eu-west-3a"
+public_key_location = "/home/umer/Desktop/capstone/ec2_capstone.pub"
+script_location = "/home/umer/Desktop/capstone/script.sh"
