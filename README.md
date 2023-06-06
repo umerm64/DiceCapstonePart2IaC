@@ -10,6 +10,10 @@ The key is created by running the command:
 ssh-keygen
 ```
 
+## User-data
+The user-data script `script.sh` is the one that sets up the environment with the required packages.
+The packages required for server and client to work are `docker`, `docker-compose` and `git`
+
 ## Outputs
 The script outputs the ami of the linux OS used in the server and client VMs.
 The terraform also outputs the public ips of the server and the client VMs.
